@@ -6,9 +6,10 @@ const isProduction = process.env.NODE_ENV == 'production';
 
 
 const config = {
-    entry: './src/index.ts',
+    entry: {one_dim:'./src/index.ts',two_dim:"./src/index2.ts"},
     output: {
         path: path.resolve(__dirname, '../web/public'),
+        filename: "[name]-bundle.js"
     },
     plugins: [
         // Add your plugins here
