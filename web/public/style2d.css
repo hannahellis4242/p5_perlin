@@ -1,0 +1,8 @@
+body {
+  background: black;
+}
+#app {
+  border: solid 1px white;
+  padding: 5px;
+  width: fit-content;
+}
